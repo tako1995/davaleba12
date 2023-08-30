@@ -2,7 +2,7 @@
     max-width: 100%;
     height: 100%;
     margin: auto;
-    border: 3px solid red;
+
 }
 
 /* main_header */
@@ -45,6 +45,7 @@
     justify-content: space-between;
     border-radius: 8px 8px 8px 8px;
     background-color: white;
+
 }
 
 
@@ -53,6 +54,7 @@
     width: 100%;
     height: 48px;
     margin-left: 16px;
+    border: none;
 
 }
 
@@ -142,36 +144,33 @@
 section {
 
     width: 100%;
-    height: 1004px;
+    /* height: 1004px; */
+    height: 100%;
     background-image: url("../images/cover\ image.png");
     padding: 64px 288px;
 }
 
 .section_div {
 
-    background-color: aqua;
-    /* width: 80%; */
-    height: 780px;
-    margin: auto;
-    padding: 50px;
-
+    background: rgba(28, 19, 37, 0.80);
+    width: 100%;
+    height: 100%;
+    padding: 48px 100px;
 }
 
 .section_contact_box {
-    background-color: aquamarine;
+    background: rgba(28, 19, 37, 0.80);
     width: 80%;
     height: 674px;
     margin: auto;
-    padding: 48px 200px;
 
 
 }
 
 
-
-
 .contact_us_title {
-
+    width: 100%;
+    height: 26px;
     color: #FFF;
     text-shadow: 2px 4px 4px rgba(249, 12, 239, 0.71);
     font-family: Poppins;
@@ -180,14 +179,140 @@ section {
     font-weight: 700;
     line-height: 26px;
     letter-spacing: 4px;
-    background-color: #2E0230;
+    background: rgba(28, 19, 37, 0.80);
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80%;
-    margin: auto;
+}
+
+
+
+.first_input {
+    background: rgba(28, 19, 37, 0.80);
+    width: 100%;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+    gap: 90px;
+}
+
+.intup_name_email {
+    display: flex;
+    width: 100%;
+    height: 48px;
+    padding: 11px 149px 11px 22px;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid #B052B5;
+
 
 }
+
+.select_intup_div {
+    width: 100%;
+    height: 82px;
+    margin: 24px 0;
+}
+
+.select_intup_div_p {
+    width: 100%;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.select_intup_select {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    height: 48px;
+    padding: 11px 22px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 347px;
+    border-radius: 8px;
+    border: 1px solid #B052B5;
+    margin: ;
+}
+
+/* label */
+
+
+
+.label_box {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+   align-items: start;
+
+
+    color: #B052B5;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 24px 0;
+    accent-color: #B052B5;
+
+}
+
+.label_box_p {
+    width: 80%;
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+    
+    }
+
+
+
+
+.textarea_p {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    resize: none;
+    color: rgba(158, 141, 158, 0.71);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.section_submit {
+    width: 100%;
+    padding: 19px 0px;
+    justify-content: center;
+    border-radius: 16px;
+    background: #F30AEA;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    margin-top: 35px;
+}
+
+
 
 /* footer */
 
@@ -233,6 +358,38 @@ section {
     line-height: 23px;
 }
 
+/* footer_email_adress */
+
+.footer_email_adress {
+    width: 20%;
+    height: 63px;
+
+}
+
+.footer_label {
+    width: 30%;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px;
+
+}
+
+.footer_input {
+    width: 100%;
+
+    display: flex;
+    height: 32px;
+    padding: 5px 127px 5px 12px;
+    align-items: center;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+
+}
+
 /* footer_followus */
 
 .footer_followus {
@@ -261,8 +418,8 @@ section {
 /* footer_rightside */
 
 .footer_rightside {
-    width: 14%;
-  
+    width: 16%;
+
 
 }
 
@@ -301,7 +458,7 @@ section {
 
 
 
-.fa-location-dot{
+.fa-location-dot {
     width: 24px;
     height: 24px;
     row-gap: 24px;
