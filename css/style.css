@@ -139,6 +139,10 @@
     line-height: 26px;
 }
 
+.contact_title_text{
+    border-bottom: 1px solid white;
+}
+
 /* section */
 
 section {
@@ -194,7 +198,7 @@ section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 80px;
+    margin-top: 40px;
     gap: 90px;
 }
 
@@ -237,7 +241,6 @@ section {
     gap: 347px;
     border-radius: 8px;
     border: 1px solid #B052B5;
-    margin: ;
 }
 
 /* label */

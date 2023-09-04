@@ -1,0 +1,19 @@
+@media (max-width: 350px) {
+    .search_box {
+        display: none;
+    }
+
+    .fa-user {
+        display: block;
+    }
+
+    .main_header_button {
+        display: none;
+    }
+
+.footer_div{
+    display: flex;
+    display: w;
+}
+
+}
